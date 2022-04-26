@@ -8,7 +8,7 @@ grep "pattern1|pattern2|pattern3" reference_file
 ```
 
 However, if you have a lot of patterns you want to match with GNU grep you will at some point hit the limits of argument length.
-Big grep uses a pattern file where each line is a pattern, and matches those 
+Big grep uses a pattern file where each line is a pattern, and matches those.
 
 ## Installation
 Note that compilation requires libboost-regex headers, because I wanted to be able to user Perl-style regexes and usually have boost available in all my environments (`libboost-regex-dev` on Ubuntu). 
